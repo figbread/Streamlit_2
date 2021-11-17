@@ -11,7 +11,7 @@ st.sidebar.write("""
 st.sidebar.write("""
 ## 表示日数選択
 """)
-days = st.sidebar.slider("日数", 1, 50, 20)
+days = st.sidebar.slider("日数", 1, 100, 20)
 
 st.write(f"""
 過去**{days}日間**の米国企業の株価
