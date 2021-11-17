@@ -14,7 +14,7 @@ st.sidebar.write("""
 days = st.sidebar.slider("日数", 1, 100, 20)
 
 st.write(f"""
-過去**{days}日間**の米国企業の株価
+過去**{days}日間**の米国tech企業の株価
 """)
 
 @st.cache
